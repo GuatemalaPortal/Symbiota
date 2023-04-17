@@ -82,8 +82,7 @@ header("Content-Type: text/html; charset=".$CHARSET);
                         <h1>Welcome to the Guatemala Biodiversity Portal</h1>
                         <div style="padding: 0px 10px;font-size:130%">
                                 <p>
-                                This portal aims to serve as a collaborative resource to integrate biodiversity data from
-                                Guatemala. This portal represents an accessible option for the management and digitization of data from
+                                This portal represents an accessible option for the management and digitization of data from
                                 biological collections or field observations gathered by entities and researchers dedicated to the study of biodiversity.
                                 The portal also allows the generation of maps, checklists and other interactive projects. The information entered in this portal can
                                 be published to the <a href="https://www.gbif.org" target="_blank">Global Biodiversity Information Facility (GBIF)</a>, from where it can be harvested
@@ -102,8 +101,7 @@ header("Content-Type: text/html; charset=".$CHARSET);
                         <h1>Bienvenidos al Portal de Biodiversidad de Guatemala</h1>
                         <div style="padding: 0px 10px;font-size:130%">
                                 <p>
-                                Este portal está diseñado para funcionar como un recurso colaborativo para la integración de datos de biodiversidad de Guatemala
-                                provenientes de distintas fuentes. El portal ofrece una alternativa libre y gratuita para el manejo y digitalización de datos
+                                El portal ofrece una alternativa libre y gratuita para el manejo y digitalización de datos
                                 provenientes de colecciones biológicas, así como de observaciones de campo de entidades o investigadores dedicados al estudio de la
                                 biodiversidad. El portal, además, permite la generación de mapas, listados de especies y otros proyectos interactivos.
                                 La información ingresada en este portal también puede ser añadida a la Instalación
