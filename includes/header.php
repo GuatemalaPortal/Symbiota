@@ -36,11 +36,12 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 				?>
 			</nav>
 			<div class="top-brand">
-				<a href="https://symbiota.org">
+				<a href="<?php echo $CLIENT_ROOT; ?>">
 					<img src="<?php echo $CLIENT_ROOT; ?>/images/layout/biodiversidad_logo.png" alt="Biodiversidad.gt logo" width="100%">
 				</a>
 				<div class="brand-name">
-					<h1>Portal de Biodiversidad de Guatemala</h1>
+					<h1><?php echo $LANG['TITLE']; ?></h1><br>
+					<h2><?php echo $LANG['SUBTITLE']; ?>
 				</div>
 			</div>
 		</div>
