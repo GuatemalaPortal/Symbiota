@@ -68,7 +68,7 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo $CLIENT_ROOT; ?>/checklists/index.php">
+						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php">
 							<?php echo (isset($LANG['H_INVENTORIES'])?$LANG['H_INVENTORIES']:'Checklists'); ?>
 						</a>
 					</li>
