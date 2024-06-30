@@ -12,6 +12,12 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 	include_once($SERVER_ROOT . '/includes/head.php');
 	include_once($SERVER_ROOT . '/includes/googleanalytics.php');
 	?>
+	<link href="/portal/css/custom/jquery-ui.css" type="text/css" rel="stylesheet">
+	<link href="/portal/css/custom/quicksearch.css" type="text/css" rel="Stylesheet" />
+	<script src="/portal/js/jquery-3.7.1.min.js" type="text/javascript"></script>
+	<script src="/portal/js/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="/portal/js/symb/api.taxonomy.taxasuggest.js" type="text/javascript"></script>
+	<script src="/portal/js/jquery.slides.js"></script>
 </head>
 <body>
 	<?php
