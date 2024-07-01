@@ -68,14 +68,21 @@ $collectionSearchPage = $SHOULD_USE_HARVESTPARAMS ? '/collections/index.php' : '
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo $CLIENT_ROOT; ?>/collections/index.php">
-							<?php echo (isset($LANG['H_COLLECTIONS'])?$LANG['H_COLLECTIONS']:'Collections'); ?>
+						<a href="#">
+							<?php echo (isset($LANG['H_SEARCH'])?$LANG['H_SEARCH']:'Search'); ?>
 						</a>
-					</li>
-					<li>
-						<a href="<?php echo $CLIENT_ROOT; ?>/collections/map/index.php" target="_blank" rel="noopener noreferrer">
-							<?php echo (isset($LANG['H_MAP_SEARCH'])?$LANG['H_MAP_SEARCH']:'Map Search'); ?>
-						</a>
+						<ul>
+							<li>
+								<a href="<?php echo $CLIENT_ROOT; ?>/collections/search/index.php">
+									<?php echo (isset($LANG['H_COLLECTIONS'])?$LANG['H_COLLECTIONS']:'Collections'); ?>
+								</a>
+							</li>
+							<li>
+								<a href="<?php echo $CLIENT_ROOT; ?>/collections/map/index.php" target="_blank" rel="noopener noreferrer">
+									<?php echo (isset($LANG['H_MAP_SEARCH'])?$LANG['H_MAP_SEARCH']:'Map Search'); ?>
+								</a>
+							</li>
+						</ul>
 					</li>
 					<li>
 						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php">
