@@ -44,14 +44,14 @@ $collectionSearchPage = $SHOULD_USE_HARVESTPARAMS ? '/collections/index.php' : '
 				?>
 			</nav>
 			<div class="top-brand">
-				<a href="https://symbiota.org">
+				<a href="<?php echo $CLIENT_ROOT; ?>">
 					<div class="image-container">
-						<img src="<?= $CLIENT_ROOT ?>/images/layout/logo_symbiota.png" alt="Symbiota logo">
+						<img src="<?php echo $CLIENT_ROOT; ?>/images/layout/biodiversidad_logo.png" alt="Biodiversidad.gt logo" width="100%">
 					</div>
 				</a>
 				<div class="brand-name">
-					<h1>Symbiota Brand New Portal</h1>
-					<h2>Redesigned by the Symbiota Support Hub</h2>
+					<h1><?php echo $LANG['H_TITLE']; ?></h1><br>
+					<h2><?php echo $LANG['H_SUBTITLE']; ?>
 				</div>
 			</div>
 		</div>
@@ -63,63 +63,44 @@ $collectionSearchPage = $SHOULD_USE_HARVESTPARAMS ? '/collections/index.php' : '
 			<nav class="top-menu" aria-label="hamburger-nav">
 				<ul class="menu">
 					<li>
-						<a href="<?= $CLIENT_ROOT ?>/index.php">
-							<?= (isset($LANG['H_HOME'])?$LANG['H_HOME']:'Home') ?>
+						<a href="<?php echo $CLIENT_ROOT; ?>/index.php">
+							<?php echo (isset($LANG['H_HOME'])?$LANG['H_HOME']:'Home'); ?>
 						</a>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT . $collectionSearchPage ?>">
-							<?= (isset($LANG['H_SEARCH'])?$LANG['H_SEARCH']:'Search') ?>
+						<a href="<?php echo $CLIENT_ROOT; ?>/collections/index.php">
+							<?php echo (isset($LANG['H_COLLECTIONS'])?$LANG['H_COLLECTIONS']:'Collections'); ?>
 						</a>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT ?>/collections/map/index.php" rel="noopener noreferrer">
-							<?= (isset($LANG['H_MAP_SEARCH'])?$LANG['H_MAP_SEARCH']:'Map Search') ?>
+						<a href="<?php echo $CLIENT_ROOT; ?>/collections/map/index.php" target="_blank" rel="noopener noreferrer">
+							<?php echo (isset($LANG['H_MAP_SEARCH'])?$LANG['H_MAP_SEARCH']:'Map Search'); ?>
 						</a>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT ?>/checklists/index.php">
-							<?= (isset($LANG['H_INVENTORIES'])?$LANG['H_INVENTORIES']:'Checklists') ?>
+						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php">
+							<?php echo (isset($LANG['H_INVENTORIES'])?$LANG['H_INVENTORIES']:'Checklists'); ?>
 						</a>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT ?>/imagelib/search.php">
-							<?= (isset($LANG['H_IMAGES'])?$LANG['H_IMAGES']:'Images') ?>
+						<a href="<?php echo $CLIENT_ROOT; ?>/imagelib/search.php">
+							<?php echo (isset($LANG['H_IMAGES'])?$LANG['H_IMAGES']:'Images'); ?>
 						</a>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT ?>/includes/usagepolicy.php">
-							<?= (isset($LANG['H_DATA_USAGE'])?$LANG['H_DATA_USAGE']:'Data Use') ?>
+						<a href="<?php echo $CLIENT_ROOT; ?>/includes/usagepolicy.php">
+							<?php echo (isset($LANG['H_DATA_USAGE'])?$LANG['H_DATA_USAGE']:'Data Use'); ?>
 						</a>
 					</li>
 					<li>
 						<a href="https://symbiota.org/docs" target="_blank" rel="noopener noreferrer">
-							<?= (isset($LANG['H_HELP'])?$LANG['H_HELP']:'Help') ?>
+							<?php echo (isset($LANG['H_HELP'])?$LANG['H_HELP']:'Help'); ?>
 						</a>
 					</li>
 					<li>
-						<a href='<?= $CLIENT_ROOT ?>/sitemap.php'>
-							<?= (isset($LANG['H_SITEMAP'])?$LANG['H_SITEMAP']:'Sitemap') ?>
+						<a href='<?php echo $CLIENT_ROOT; ?>/sitemap.php'>
+							<?php echo (isset($LANG['H_SITEMAP'])?$LANG['H_SITEMAP']:'Sitemap'); ?>
 						</a>
-					</li>
-					<li>
-						<a href="#">Example Dropdown</a>
-						<ul>
-							<li>
-								<a href="#">Link 1</a>
-							</li>
-							<li>
-								<a href="#">Link 2</a>
-							</li>
-							<li>
-								<a href="#">Sub Menu</a>
-								<ul>
-									<li>
-										<a href="#">Link 3</a>
-									</li>
-								</ul>
-							</li>	
-						</ul>
 					</li>
 					<li id="lang-select-li">
 						<label for="language-selection"><?= $LANG['SELECT_LANGUAGE'] ?>: </label>
