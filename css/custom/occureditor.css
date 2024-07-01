@@ -1,6 +1,7 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
+	width: 820px;
 }
 
 #innertext{
@@ -12,10 +13,11 @@ body{
 #titleDiv{
 	font-weight: bold;
 	font-size: 16px;
-	width: 900px;
+	width: 820px;
 }
 
 #navDiv{
+	width: 820px;
 	clear: both;	
 }
 
@@ -23,9 +25,8 @@ body{
 }
 
 #occdiv{
-	width: 900px;
-	resize:both;
-	overflow:auto; /* something other than visible */
+	position: relative;
+	width: 795px;
 }
 
 #admindiv{
@@ -74,24 +75,18 @@ body{
 /* Field entry divs and input objects */
 #catalogNumberDiv {
 	float:	left;
-	margin-top: 5px;
 }
 
 #catalogNumberDiv input{
-	width:	200px;
+	width:	150px;
 }
 
 #otherCatalogNumbersDiv {
 	float:	left;
-	margin-left: 10px;
 }
 
-.idNameInput{
-	width:	185px;
-}
-
-.idValueInput{
-	width:	250px;	
+#otherCatalogNumbersDiv input{
+	width:	200px;
 }
 
 #recordedByDiv {
@@ -249,56 +244,12 @@ body{
 	width:	95%;
 }
 
-#geography1-div{
-	display: none;
-}
-
-#continentDiv{
-	float:	left;
-}
-
-#continentDiv input{
-	width:	150px;
-}
-
-#waterBodyDiv{
-	float:	left;
-}
-
-#waterBodyDiv input{
-	width:	150px;
-}
-
-#islandGroupDiv{
-	float:	left;
-}
-
-#islandGroupDiv input{
-	width:	150px;
-}
-
-#islandDiv{
-	float:	left;
-}
-
-#islandDiv input{
-	width:	150px;
-}
-
 #countryDiv{
 	float:	left;
 }
 
 #countryDiv input{
 	width:	150px;
-}
-
-#countryCodeDiv{
-	float:	left;
-}
-
-#countryCodeDiv input{
-	width:	50px;
 }
 
 #stateProvinceDiv{
@@ -327,7 +278,7 @@ body{
 
 #locationIdDiv{
 	float:	left;
-	margin-left: 5px;
+	margin-left: 25px;
 }
 
 #locationIdDiv input{
@@ -336,6 +287,7 @@ body{
 
 #localityDiv{
 	clear:	both;
+	margin:	4px 0px 2px 0px;
 }
 
 #localityDiv textarea{
@@ -647,6 +599,7 @@ body{
 
 #lifeStageDiv{
 	float: left;
+	margin:2px;
 }
 
 #lifeStageDiv input{
@@ -655,6 +608,7 @@ body{
 
 #sexDiv{
 	float: left;
+	margin:2px;
 }
 
 #sexDiv input{
@@ -663,6 +617,7 @@ body{
 
 #individualCountDiv{
 	float: left;
+	margin: 2px;
 }
 
 #individualCountDiv input{
@@ -671,6 +626,7 @@ body{
 
 #samplingProtocolDiv{
 	float: left;
+	margin: 2px;
 }
 
 #samplingProtocolDiv input{
@@ -679,6 +635,7 @@ body{
 
 #preparationsDiv{
 	float:left;
+	margin:2px;
 }
 
 #preparationsDiv input{
@@ -687,6 +644,7 @@ body{
 
 #reproductiveConditionDiv{
 	float:left;
+	margin:2px;
 }
 
 #reproductiveConditionDiv select{
@@ -697,24 +655,9 @@ body{
 	width:140px;
 }
 
-#behaviorDiv{
-	float: left;
-}
-
-#behaviorDiv input{
-	width: 140px;
-}
-
-#vitalityDiv{
-	float: left;
-}
-
-#vitalityDiv input{
-	width: 140px;
-}
-
 #establishmentMeansDiv{
 	float: left;
+	margin: 2px;
 }
 
 #establishmentMeansDiv input{
@@ -728,6 +671,7 @@ body{
 
 #typeStatusDiv{
 	float:left;
+	margin:3px;
 }
 
 #typeStatusDiv input{
@@ -736,6 +680,7 @@ body{
 
 #dispositionDiv{
 	float:left;
+	margin:3px;
 }
 
 #dispositionDiv input{
@@ -744,6 +689,7 @@ body{
 
 #occurrenceIdDiv{
 	float:left;
+	margin:3px;
 }
 
 #occurrenceIdDiv input{
@@ -752,6 +698,7 @@ body{
 
 #fieldNumberDiv{
 	float:left;
+	margin:3px;
 }
 
 #fieldNumberDiv input{
@@ -760,6 +707,7 @@ body{
 
 #institutionCodeDiv{
 	float:left;
+	margin:3px;
 }
 
 #institutionCodeDiv input{
@@ -768,6 +716,7 @@ body{
 
 #collectionCodeDiv{
 	float:left;
+	margin:3px;
 }
 
 #collectionCodeDiv input{
@@ -776,6 +725,7 @@ body{
 
 #ownerInstitutionCodeDiv{
 	float:left;
+	margin:3px;
 }
 
 #ownerInstitutionCodeDiv input{
@@ -784,6 +734,7 @@ body{
 
 #basisOfRecordDiv{
 	float:left;
+	margin:3px;	
 }
 
 #basisOfRecordDiv input{
@@ -792,6 +743,7 @@ body{
 
 #languageDiv{
 	float:left;
+	margin:4px 3px;	
 }
 
 #languageDiv input{
@@ -800,10 +752,12 @@ body{
 
 #labelProjectDiv{
 	float:left;
+	margin:5px 3px;
 }
 
 #duplicateQuantityDiv{
 	float:left;
+	margin:3px;
 }
 
 #duplicateQuantityDiv input{
@@ -812,6 +766,7 @@ body{
 
 #dataGeneralizationsDiv{
 	float:left;
+	margin:3px;
 }
 
 #dataGeneralizationsDiv input{
@@ -870,15 +825,10 @@ body{
 	margin:	15px 30px;
 }
 
-#editortd{
-	vertical-align: top;
-	padding-right: 1em;
-}
-
 /*Misc styling*/
 img.docimg { 
 	border:			0px;
-	width:			11px;
+	width:			9px;
 	margin-bottom:	2px; 
 }
 
@@ -892,14 +842,10 @@ table {
 	font-size: 		12px;
 }
 
-.divTable{ display: table; border: 1px solid #000000; border-collapse: collapse; margin-bottom: 2px }
+.divTable{ display: table; }
 .divTableRow { display: table-row; }
-.divTableHeading { display: table-header-group; background: #f2f2f2; border-bottom: 2px solid #444444; }
-.divTableHeading, .divTableHead { color: #000000; border: 1px solid #f2f2f2; }
-.divTableCell, .divTableHead { display: table-cell; border: 1px solid #AAAAAA; padding: 2px 8px; }
-.divTableHead { padding: 1px 8px; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
-
-.imgInfo {
-	vertical-align: top;
-}
