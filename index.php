@@ -68,10 +68,10 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 				$numDays = 30;
 
 				//---------------------------DO NOT CHANGE BELOW HERE-----------------------------
-				ini_set('max_execution_time', 120);
-				include_once($SERVER_ROOT.'/classes/PluginsManager.php');
-				$pluginManager = new PluginsManager();
-				echo $pluginManager->createSlideShow($ssId,$numSlides,$width,$numDays,$imageType,$clId,$dayInterval,$interval);
+				//ini_set('max_execution_time', 120);
+				//include_once($SERVER_ROOT.'/classes/PluginsManager.php');
+				//$pluginManager = new PluginsManager();
+				//echo $pluginManager->createSlideShow($ssId,$numSlides,$width,$numDays,$imageType,$clId,$dayInterval,$interval);
 				?>
 			</div>
 		</div>
