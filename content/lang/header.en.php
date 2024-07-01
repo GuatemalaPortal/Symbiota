@@ -6,10 +6,13 @@ Language: English
 */
 
 $LANG['H_HOME'] = 'Home';
+$LANG['H_TITLE'] = 'Guatemala Biodiversity Portal';
+$LANG['H_SUBTITLE']= 'Specimen data from Guatemala’s collections';
 
 $LANG['H_SEARCH'] = 'Search';
 $LANG['H_COLLECTIONS'] = 'Search Collections';
 $LANG['H_MAP'] = 'Map';
+$LANG['H_DYN_LISTS'] = 'Dynamic Species List';
 $LANG['H_MAP_SEARCH'] = 'Map Search';
 $LANG['H_TAXONOMIC_EXPLORER'] = 'Taxonomic Explorer';
 
@@ -18,8 +21,10 @@ $LANG['H_IMAGE_BROWSER'] = 'Image Browser';
 $LANG['H_IMAGE_SEARCH'] = 'Image Search';
 
 $LANG['H_INVENTORIES'] = 'Species Checklists';
-$LANG['H_PROJECT_1'] = 'Checklist Project 1';
-$LANG['H_PROJECT_2'] = 'Checklist Project 2';
+$LANG['H_PROJECT_1'] = 'Plants';
+$LANG['H_PROJECT_2'] = 'Animals';
+$LANG['H_PROJECT_3'] = 'Project 3';
+$LANG['H_PROJECT_4'] = 'Project 4';
 
 $LANG['H_DYN_LISTS'] = 'Dynamic Species List';
 $LANG['H_DYN_KEYS'] = 'Identification Keys';
