@@ -6,20 +6,25 @@ Language: Español (Spanish)
 */
 
 $LANG['H_HOME'] = 'Inicio';
+$LANG['H_TITLE'] = 'Portal de Biodiversidad de Guatemala';
+$LANG['H_SUBTITLE'] = 'Digitalización y Manejo de Colecciones Biológicas';
 
-$LANG['H_SEARCH'] = 'Buscar';
-$LANG['H_COLLECTIONS'] = 'Buscar Colecciones';
+$LANG['H_SEARCH'] = 'B&uacute;squeda';
+$LANG['H_COLLECTIONS'] = 'Colecciones';
 $LANG['H_MAP'] = 'Mapa';
 $LANG['H_MAP_SEARCH'] = 'Buscar Mapa';
+$LANG['H_DYN_LISTS'] = 'Listados Din&aacute;micos';
 $LANG['H_TAXONOMIC_EXPLORER'] = 'Explorador Taxon&oacute;mico';
 
 $LANG['H_IMAGES'] = 'Im&aacute;genes';
-$LANG['H_IMAGE_BROWSER'] = 'Navegador de Imágenes';
-$LANG['H_IMAGE_SEARCH'] = 'Buscar Imágenes';
+$LANG['H_IMAGE_BROWSER'] = 'Navegador de Im&aacute;genes';
+$LANG['H_IMAGE_SEARCH'] = 'B&uacute;squeda de Im&aacute;genes';
 
-$LANG['H_INVENTORIES'] = 'Lista de Especies';
-$LANG['H_PROJECT_1'] = 'Proyecto 1';
-$LANG['H_PROJECT_2'] = 'Proyecto 2';
+$LANG['H_INVENTORIES'] = 'Listados de Especies';
+$LANG['H_PROJECT_1'] = 'Plantas';
+$LANG['H_PROJECT_2'] = 'Animales';
+$LANG['H_PROJECT_3'] = 'Proyecto 3';
+$LANG['H_PROJECT_4'] = 'Proyecto 4';
 
 $LANG['H_DYN_LISTS'] = 'Listados Din&aacute;micos';
 $LANG['H_DYN_KEYS'] = 'Claves de identificación';
