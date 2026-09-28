@@ -91,7 +91,7 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 				<p>
 				The Guatemala Biodiversity Portal is hosted by the <a href="https://biodiversity.ku.edu/symbiota-support-hub" target="_blank">Symbiota Support Hub</a>
 				at the University of Kansas, USA. For further information or to have a collection profile established, please contact
-				Samanta Orellana (<a href="mailto:samanta.orellana@ku.edu">samanta.orellana@ku.edu</a>) or Zabdi López (<a href="mailto:zabdi@alumni.uvg.edu.gt">zabdi@alumni.uvg.edu.gt</a>).
+				Samanta Orellana (<a href="mailto:samanta.orellana@ku.edu">samanta.orellana@ku.edu</a>) or Zabdi López (<a href="mailto:zabdi.lopez@unibe.ch"></a>).
 				</p>
 			</div>
 			<?php
